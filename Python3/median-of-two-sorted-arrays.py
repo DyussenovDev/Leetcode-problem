@@ -26,7 +26,7 @@ class Solution:
             for _ in range((m + n) // 2 - 1):
                 _ = get_min()
             return (get_min() + get_min()) / 2
-        else: 
-            for _ in range((m + n) / 2):
+        else:
+            for _ in range((m + n) // 2):
                 _ = get_min()
             return get_min()
